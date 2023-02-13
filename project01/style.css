@@ -231,7 +231,7 @@
 
       /* Slideshow container */
     .slideshow-container {
-    max-width: 250px;
+    max-width: 350px;
     position: relative;
     margin: auto;
     }
@@ -264,3 +264,10 @@
     .text {font-size: 11px}
   }
     
+  .grid-containerc {
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
