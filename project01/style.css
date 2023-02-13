@@ -351,3 +351,8 @@
     background-color: #666;
     color: white;
   }
+
+  /* contact page styles starts here */
+  .contactDetails{
+    text-align: left;
+  }

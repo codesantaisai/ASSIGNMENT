@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <style>
 .grid-containermap {
   display: grid;
@@ -18,18 +20,31 @@
 </style>
 </head>
 <body>
-
-<h1>Grid Elements</h1>
-
-<p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
-
-<p>Direct child element(s) of the grid container automatically becomes grid items.</p>
-
+<h1 style="text-align: center;">Drop Us a Mail</h1>
 <div class="grid-containermap">
   <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
+  <div class="grid-item">
+    <p><strong>BC, a latin professor at Hampden-sydney college in verginia</strong> </p>
+    <address class="contactDetails">
+        Phone: <strong>+91 976885083</strong><br>
+        Email: <strong>example@gmail.com</strong><br>
+        Fax:<strong>+91 12345678</strong>
+    </address>
+    <h2>Want to Know More?? Drop us Mail</h2>
+    <form action="">
+        <input type="text" placeholder="FirstName">
+        <input type="text" placeholder="LastName">
+        <br>
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="ContactNumber">
+        <br>
+        <textarea placeholder="Your Message Here.." id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+  </div>
 </div>
-
+<source src="bootstrap/js/bootstrap.bundle.min.js">
+<script src="index.js"></script>
 </body>
 </html>
 
