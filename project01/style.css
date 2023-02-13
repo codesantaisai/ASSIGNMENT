@@ -4,13 +4,24 @@
     color:black;
     border-radius:  30px;
 }
+.btn:hover{
+    background-color: rgb(255, 162, 0);
+}
+.btn2:hover{
+    background-color: rgb(255, 162, 0);
+}
+
 
 .nav-link{
     color:black;
 }
-.home{
-    color: orange;
+.active{
+    color:rgb(182, 25, 25);
 }
+
+/* .home{
+    color: orange;
+} */
 /*Navbar Styles End*/
 
 /*sectrion-2 start*/
