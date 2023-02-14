@@ -49,7 +49,7 @@
 
   
   <li class="nav-item">
-    <a class="nav-link">Contact</a>
+    <a class="nav-link" href="contact.html">Contact</a>
   </li>
   <button type="button" class="btn">Get Started</button>
 
@@ -102,7 +102,7 @@
       <!--section one End-->
       <!--section Two Starts-->
       <section>
-        <img src="images/bowl.jpeg" class="rounded float-start img2" alt="...">
+        <img src="images/bowl.jpeg" class="rounded float-start img2" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" alt="a bowl" width="32" height="32">
         <div class="sec2">
           <h1>Voluptatem dignissimos provident <br>quasi</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat porro est consequatur amet nesciunt quasi, architecto explicabo fugit distinctio quod facere, sequi saepe vitae! Nisi cupiditate excepturi dicta delectus hic.</p>   
@@ -126,38 +126,26 @@
         <h4 class="checkout" style="text-align:center;">Portfolio</h4>
         <h2 class="checkout">Check out our beautiful Portfolio</h2>
         <hr  style="width:3%; height: 3px; margin:auto; color: rgba(6, 8, 6, 0.945);">
-        <!-- <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#">All</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">App</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Card</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"href="#">Web</a>
-          </li>
-        </ul> -->
-        <!-- MAIN (Center website) -->
+        </div>
+         
+      </section>
+
+
+      <!-- MAIN (Center website) -->
 <div class="main">
+
   <div id="myBtnContainer">
     <button class="btn active" onclick="filterSelection('all')"> All</button>
-    <button class="btn" onclick="filterSelection('App')"> App</button>
-    <button class="btn" onclick="filterSelection('Card')"> Card</button>
-    <button class="btn" onclick="filterSelection('Web')"> Web</button>
+    <button class="btn" onclick="filterSelection('nature')"> App</button>
+    <button class="btn" onclick="filterSelection('cars')"> Card</button>
+    <button class="btn" onclick="filterSelection('people')"> Web</button>
   </div>
-        </div>
-      
-      
-      
   
   <!-- Portfolio Gallery Grid -->
   <div class="row">
     <div class="column nature">
       <div class="content">
-        <img src="images/pic1.jpg" alt="siddha" style="width:100%">
+        <img src="images/pic1.jpg" alt="Mountains" style="width:100%">
         
       </div>
     </div>
@@ -169,20 +157,14 @@
     </div>
     <div class="column nature">
       <div class="content">
-      <img src="images/pic3.jpg" alt="Nature" style="width:100%">
+      <img src="images/pic2.jpg" alt="Nature" style="width:100%">
         
       </div>
     </div>
     
     <div class="column cars">
       <div class="content">
-        <img src="images/pic3.jpg" alt="Car" style="width:100%">
-        
-      </div>
-    </div>
-    <div class="column cars">
-      <div class="content">
-      <img src="images/pic4.jpeg" alt="Car" style="width:100%">
+        <img src="images/pic4.jpeg" alt="Car" style="width:100%">
         
       </div>
     </div>
@@ -192,23 +174,29 @@
         
       </div>
     </div>
-  
-    <div class="column people">
+    <div class="column cars">
       <div class="content">
-        <img src="images/pic6.png" alt="Car" style="width:100%">
+      <img src="images/pic8.jpg" alt="Car" style="width:100%">
         
       </div>
     </div>
+  
     <div class="column people">
       <div class="content">
-      <img src="images/pic7.jpg" alt="Car" style="width:100%">
-        
+        <img src="images/bowl.jpeg" alt="Car" style="width:100%">
+  
       </div>
     </div>
     <div class="column people">
       <div class="content">
       <img src="images/pic8.jpg" alt="Car" style="width:100%">
-        
+  
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+      <img src="images/pic9.jpeg" alt="Car" style="width:100%">
+  
       </div>
     </div>
   <!-- END GRID -->
@@ -216,11 +204,9 @@
   
   <!-- END MAIN -->
   </div>
-</section>
-       <!--Gallery Starts Here-->
 
-
-      <!--Gallery Ends Here-->
+        
+      
       <!--section five starts here-->
       <section>
         <div class="team">

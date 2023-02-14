@@ -64,3 +64,21 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 //image gallery ends here
+
+//ZoomIN ZoomOut starts here
+
+function bigImg(x) {
+  x.style.height = "250px";
+  x.style.width = "350px";
+}
+
+function normalImg(x) {
+  x.style.height = "350px";
+  x.style.width = "400px";
+}
+
+//ZoomIN ZoomOut ends here
+//map starts here
+
+
+

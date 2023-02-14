@@ -22,7 +22,10 @@
 <body>
 <h1 style="text-align: center;">Drop Us a Mail</h1>
 <div class="grid-containermap">
-  <div class="grid-item">1</div>
+  <div class="grid-item" id="map">
+    
+      
+  </div>
   <div class="grid-item">
     <p><strong>BC, a latin professor at Hampden-sydney college in verginia</strong> </p>
     <address class="contactDetails">
@@ -31,12 +34,16 @@
         Fax:<strong>+91 12345678</strong>
     </address>
     <h2>Want to Know More?? Drop us Mail</h2>
-    <form action="">
-        <input type="text" placeholder="FirstName">
-        <input type="text" placeholder="LastName">
+    <form action="" onsubmit="return validate()">
+        <input type="text" placeholder="FirstName" id="fullname">
+        <p id="para1"></p>
+        <input type="text" placeholder="LastName" id="lastname">
+        <p id="para3"></p>
         <br>
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="ContactNumber">
+        <input type="text" placeholder="Email" id="valid-email">
+        <p id="para2"></p>
+        <input type="text" placeholder="ContactNumber" id="telephone">
+        <p id="para4"></p>
         <br>
         <textarea placeholder="Your Message Here.." id="" cols="30" rows="10"></textarea><br>
         <input type="submit" value="Send">
@@ -44,7 +51,11 @@
   </div>
 </div>
 <source src="bootstrap/js/bootstrap.bundle.min.js">
-<script src="index.js"></script>
+<script src="formvalidation.js"></script>
+<script defer
+src="<https://maps.googleapis.com/maps/api/js?key=AIzaSyBbBTsw3a0xr_gDG89PMwd99dpxoE-y45A&callback=initMap"></script>
+
+
 </body>
 </html>
 
